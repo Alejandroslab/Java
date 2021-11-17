@@ -1,0 +1,37 @@
+You can download it from jdk.java.net/18/
+
+Extract the file and move to
+C:\Programs\Java
+If you don't have the Java folder you can create one
+
+Inside Java you should see now the extracted folder called something like 'jdk-18'
+Inside 'jdk-18' you will find some folders and also a 'bin' one
+
+After that you should set your java inside your PATH
+This means that you must indicate this new path
+
+C:\Programs\Java\jdk-18\bin
+
+inside your PATH variable
+
+To do that in start you must open the 'Environment Variables'
+Below in 'System variables' you will find the variable: 'Path' and maybe 'JAVA_HOME'
+
+Now double click on 'Path' click add and paste the previous path:
+
+C:\Programs\Java\jdk-18\bin
+
+Click Ok
+
+Now if you don't have the 'JAVA_HOME' variable you can create it clicking on 'New'
+under 'Variable Name' type: 'JAVA_HOME' without the apostrophe
+under 'Value Variable' type the path BUT without the '\bin':
+
+C:\Programs\Java\jdk-18
+
+Click ok
+
+Now click ok again and close your 'Environment variables'
+
+DONE!
+Now any program with java should work on your machine 
