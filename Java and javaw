@@ -1,0 +1,10 @@
+In sintesi, utilizziamo il comando java se:
+
+è un programma prettamente testuale, che prevede l’output di messaggi a video su console;
+il programma prevede un’interazione con l’utente tramite tastiera;
+durante la fase di test e debug di un programma.
+
+utilizziamo invece il comando javaw se:
+il programma utilizza esclusivamente un’interfaccia grafica;
+si vuole nascondere di proposito la console;
+le prestazioni del programma sono leggermente migliori.
